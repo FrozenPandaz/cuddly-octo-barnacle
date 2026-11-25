@@ -109,5 +109,7 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "nxCloudId": "6b070fed60a8fec42116724c",
+  "nxCloudUrl": "https://snapshot.nx.app"
 }
