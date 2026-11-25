@@ -1,2 +1,33 @@
 packages:
   - 'packages/*'
+  - 'libs/*'
+  - 'apps/*'
+allowBuilds:
+  '@parcel/watcher': true
+  nx: true
+  esbuild: false
+  unrs-resolver: false
+minimumReleaseAgeExclude:
+  - '@nx/devkit@24.0.7'
+  - '@nx/docker@24.0.7'
+  - '@nx/eslint@24.0.7'
+  - '@nx/jest@24.0.7'
+  - '@nx/js@24.0.7'
+  - '@nx/node@24.0.7'
+  - '@nx/nx-darwin-arm64@24.0.7'
+  - '@nx/nx-darwin-x64@24.0.7'
+  - '@nx/nx-freebsd-x64@24.0.7'
+  - '@nx/nx-linux-arm-gnueabihf@24.0.7'
+  - '@nx/nx-linux-arm64-gnu@24.0.7'
+  - '@nx/nx-linux-arm64-musl@24.0.7'
+  - '@nx/nx-linux-x64-gnu@24.0.7'
+  - '@nx/nx-linux-x64-musl@24.0.7'
+  - '@nx/nx-win32-arm64-msvc@24.0.7'
+  - '@nx/nx-win32-x64-msvc@24.0.7'
+  - '@nx/react@24.0.7'
+  - '@nx/rspack@24.0.7'
+  - '@nx/vite@24.0.7'
+  - '@nx/vitest@24.0.7'
+  - '@nx/web@24.0.7'
+  - '@nx/workspace@24.0.7'
+  - 'nx@24.0.7'

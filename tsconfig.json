@@ -2,6 +2,25 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": [],
+  "references": [
+    {
+      "path": "./libs/models"
+    },
+    {
+      "path": "./libs/utils"
+    },
+    {
+      "path": "./apps/web-rspack"
+    },
+    {
+      "path": "./apps/web-vite"
+    },
+    {
+      "path": "./apps/api-one"
+    },
+    {
+      "path": "./apps/api-two"
+    }
+  ],
   "compilerOptions": {}
 }

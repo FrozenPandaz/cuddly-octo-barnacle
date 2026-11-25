@@ -1,0 +1,9 @@
+{
+  "name": "@org/web-rspack",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@org/models": "workspace:*",
+    "@org/utils": "workspace:*"
+  }
+}
