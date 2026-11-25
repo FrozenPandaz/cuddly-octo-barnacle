@@ -13,5 +13,5 @@ jobs:
     runs-on: linux-medium-js
     workers: 2 linux-medium-js
     steps:
-      - name: Build and typecheck
-        run: pnpm nx run-many -t build typecheck
+      - name: Run all targets
+        run: pnpm nx run-many -t build typecheck lint test e2e-ci

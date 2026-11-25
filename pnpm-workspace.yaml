@@ -5,6 +5,7 @@ packages:
 allowBuilds:
   '@parcel/watcher': true
   nx: true
+  '@swc/core': false
   esbuild: false
   unrs-resolver: false
 minimumReleaseAgeExclude:
@@ -24,6 +25,7 @@ minimumReleaseAgeExclude:
   - '@nx/nx-linux-x64-musl@24.0.7'
   - '@nx/nx-win32-arm64-msvc@24.0.7'
   - '@nx/nx-win32-x64-msvc@24.0.7'
+  - '@nx/playwright@24.0.7'
   - '@nx/react@24.0.7'
   - '@nx/rspack@24.0.7'
   - '@nx/vite@24.0.7'
@@ -31,3 +33,4 @@ minimumReleaseAgeExclude:
   - '@nx/web@24.0.7'
   - '@nx/workspace@24.0.7'
   - 'nx@24.0.7'
+  - '@nx/eslint-plugin@24.0.7'

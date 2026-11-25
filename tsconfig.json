@@ -10,7 +10,13 @@
       "path": "./libs/utils"
     },
     {
+      "path": "./apps/web-rspack-e2e"
+    },
+    {
       "path": "./apps/web-rspack"
+    },
+    {
+      "path": "./apps/web-vite-e2e"
     },
     {
       "path": "./apps/web-vite"
