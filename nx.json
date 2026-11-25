@@ -109,5 +109,7 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "nxCloudId": "6b0717b2a2e1150c91c17fe7",
+  "nxCloudUrl": "https://staging.nx.app"
 }

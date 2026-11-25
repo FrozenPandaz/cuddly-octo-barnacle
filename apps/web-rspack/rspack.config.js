@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: join(__dirname, 'dist'),
   },
+  resolve: { conditionNames: ['@org/source', '...'] },
   devServer: {
     port: 4201,
     historyApiFallback: {
